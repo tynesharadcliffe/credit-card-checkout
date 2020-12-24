@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Credit Card Checkout</title>
+</head>
+<body>
+
+<div class="flex-container">
+    <div class="cream-panel">
+        <img class="clothes" src="clothes.svg" alt="clothes with glasses.">
+        <p class="photo-credit">Photo by Ylanite Koppens from Pexels</p>
+    </div>
+    <div class="white-panel"></div>
+    <div class="black-panel">
+        <input type="image" src="arrow.svg" class="arrow">
+    </div>
+</div>
+<div class="card-details">
+    <form action="/action_page.php" method="post"><p class="title">Payment Details</p>
+    <div><label for="name"> Cardholder's Name <br>
+        <input type="text" name="name" placeholder="As it appears on the card">
+    </label></div>
+    <div><label for="card-number"> Card Number <br>
+        <input type="number" name="card-number" maxlength="16" placeholder="The long card number">
+    </label></div>
+    <div><label for="expiry-date"> Expiry Date <br>
+        <input type="month" name="expiry-date">
+    </label></div>
+     <div class="cvv"><label for="cvv"> CVV <br>
+        <input type="password" name="cvv">
+    </label></div>
+    </form>
+</div>
+    
+</body>
+</html>
